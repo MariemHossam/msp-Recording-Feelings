@@ -62,8 +62,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+# MSP-Recording-Feelings
+## React Hooks task.
+practice on:
+- JSX Rules and Logic
+- Styling with JSX
+- Images with JSX
+- Parent and Child
+- Using Props
+- Callback
+- Set state
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
