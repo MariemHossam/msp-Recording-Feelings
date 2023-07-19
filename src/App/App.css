@@ -1,0 +1,132 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height:100vh;
+  background-image:linear-gradient(120deg, #480ca8 , #758bfd);
+}
+
+h1{
+  margin-left:20px ;
+  color:white;
+  font-weight: 500;
+  font-size: 63px;
+  font-family: 'Bungee', cursive;
+ }
+.wrapper{
+  margin-left: 48px;
+  top:-26px;
+  display: flex;
+  align-items: center;
+}
+
+.msp{
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.mainpage {
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.search{
+  background-color: red;
+  padding-top: 0;
+  padding:22px 0px;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+main section input{
+  padding: 20px;
+  margin-left: 68px;
+  font-size: 20px;
+  border-radius: 50px;
+  width:500px;
+  border:none;
+  background-color: #758cfd35;
+}
+main section input:focus{
+  outline: none;
+}
+/*start emoji section*/
+.section p{
+  font-size: 32px;
+  font-weight: bold;
+  color:white;
+  margin: 12px 88px;
+  margin-bottom:5px;
+}
+
+.emoji{
+  margin-left: 70px;
+  height: 8vmin;
+  display: flex;
+}
+
+.emoji img{
+  height: 8vmin;
+  margin:8px;
+}
+
+.section{
+  display: flex;
+  align-items: flex-end;
+  width: 570px;
+  justify-content: space-between;
+}
+
+.section button{
+  padding: 15px;
+  font-size: 20px;
+  border:none;
+  background-color: #758bfd;
+  color: white;
+  border-radius: 30px;
+  position: relative;
+  top:7px;
+}
+/*end emoji section*/
+/*start list section*/
+main section:nth-of-type(2) {
+  border: 2px solid #758bfd;
+  border-radius: 30px;
+  padding: 30px;
+  width: 700px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+main section:nth-of-type(2) div{
+  display: flex;
+  align-items: center;
+  gap:13px;
+  margin-left:0px;
+  margin-bottom: 20px;
+}
+
+input[type='radio']{
+  display: none;
+}
+
+input[type='radio']:checked + label > img{
+  transform: scale(1.3);
+}
+/*end list section*/
